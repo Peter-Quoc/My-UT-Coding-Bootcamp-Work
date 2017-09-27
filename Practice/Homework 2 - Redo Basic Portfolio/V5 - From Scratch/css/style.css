@@ -1,0 +1,224 @@
+/* In case we need to check positioning */
+/* border: 2px solid black; */
+
+header {
+	display: inline-block;
+	padding: 20px 20px 10px 20px;
+	border-bottom: 5px solid #b81d18 ;
+}
+
+h1 {
+	font-size:30px;
+	color: white;
+}
+
+.YourName {
+	padding: 20px;
+	background-color: #b81d18;
+	float: left;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+.PageLinks {
+	float: right;
+	padding: 20px;
+}
+
+.Link {
+	padding: 10px;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.Home {
+	display: inline-block;
+	position: relative;
+	top: 5.5px;
+	padding: 4px;
+}
+
+.Link:hover {
+	background-color: #b81d18;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #777777; 
+}
+.Link:hover a {
+	color: white;
+}
+
+.MainSection {
+	min-height: calc(100vh-70px);
+	flex: 1 0 auto;
+	background-image: url("https://static1.squarespace.com/static/52fa426be4b062dfe8a7f47a/t/56e5ef32356fb03943262f0e/1457909560384/welcomebackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	FOR BACKGROUND IMAGE ON HOME PAGE */
+/*	background-image: url('image/HP4.jpg');
+  	background-color: black;*/
+
+}
+
+html {
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer{
+	flex-shrink: 0;
+	background-color: #666666;
+	padding: 30px 15px 30px 15px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	border-top: 5px solid #b81d18;
+
+/*Clearing Float*/
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.Hello {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	opacity: 0.65;
+	padding: 5px;
+	margin: 17% 33.33% 0% 33.33%;
+}
+
+.Msg {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	opacity: 0.65;
+	padding: 5px;
+	margin: 0% 33.33% 0% 33.33%;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.AboutMe {
+	border: 1px solid #b81d18;
+	background-color: white;
+/*	opacity: 0.7;*/
+	width: 35%;
+	margin: 3% 3% 3% 20%;
+	padding: 20px;
+	border-radius: 10px;
+	float: left;
+}
+
+.SectionHeader {
+	color: black;
+	padding-bottom: 10px;
+	border-bottom: .75px solid #b81d18;
+}
+
+.SectionInfo {
+	padding-top: 15px;
+}
+
+.Connect {
+	text-align: center;
+	width: 11%;
+	border: 1px solid #b81d18;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: white;
+	float: left;
+	margin-top: 3%;
+}
+
+.ContactForm {
+	border: 1px solid #b81d18;
+	background-color: white;
+	width: 35%;
+	margin: 3% 3% 3% 20%;
+	padding: 20px;
+	border-radius: 10px;
+	float: left;
+}
+
+.Form{
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.MessageForm {
+	width: 95%;
+ 	height: 100px;
+ 	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.SubmitButton {
+	padding: 10px;
+	border-radius: 5px;
+	width: 7%;
+	border: 1px solid #dddddd;
+}
+
+.SubmitButton:hover {
+	background-color: #b81d18;
+	color: white;
+}
+
+textarea, input {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.Portfolio {
+	border: 1px solid #b81d18;
+	background-color: white;
+	width: 35%;
+	margin: 3% 3% 3% 20%;
+	padding: 20px;
+	border-radius: 10px;
+	float: left;
+}
+
+.ProjectImage{
+	padding: 0px;
+	width: 47%;
+	float: left;
+	height: 202px;
+	margin: 6px;
+	border: 1px solid #dddddd;
+}
+
+.ProjectName {
+	text-align: center;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	background-color: #b81d18;
+	position:relative;
+	bottom: 45px;
+}
+
+@media screen and 

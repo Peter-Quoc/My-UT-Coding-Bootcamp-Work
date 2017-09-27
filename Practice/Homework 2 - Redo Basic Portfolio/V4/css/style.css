@@ -1,0 +1,55 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	border: 2px solid black;
+}
+
+body {
+	border: 2px solid blue;
+	background-image: url("https://hdwallsource.com/img/2014/5/grey-wallpaper-19171-19660-hd-wallpapers.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+	border: 2px solid red;
+}
+
+.Header {
+
+}
+
+.Link {
+	padding: 20px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.Content {
+
+}
+
+.HomePageBody {
+	text-align: center;
+	position: relative;
+
+}
+
+.HomePageName {
+	background-color: black;
+	padding: 5px;
+}
+
+.HomePageText {
+	background-color: black;
+	padding: 5px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
